@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px; 
+	background-color: #fff; 
+	background-image: url(images/templatemo_header.png);
+	background-position: top;
+	background-repeat: repeat-x
+}
+.ddsmoothmenu ul li a {
+	display: block;
+	height: 46px;
+	width: 106px;
+	margin-right: 5px;
+	line-height: 35px;
+	padding-top: 10px;
+	font-size: 13px;
+	color: white;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	background: url(../images/templatemo_menu_item.jpg) 
+}
+#templatemo_bottom_wrapper {
+	width: 100%;
+	border-top: 5px solid #f7f5f3;
+	background: #ffa500;
+	color:black;
+}
+
+#templatemo_slider {
+136 234 73 2 95 154	
+	margin-top: 10px;
+}
+#templatemo_slider1 {
+	padding: 10px 0;
+	height: 350px;
+	margin-top: 10px;
+}
+#templatemo_footer_wrapper {
+	width: 100%;
+	border-top: 5px solid #f7f5f3;
+	background: rgb(7,111,192)
+}
+
+#templatemo_footer {
+	width: 960px;
+	margin: 0 20px;	
+	padding: 10px 10px 5px;
+	color: white;
+}

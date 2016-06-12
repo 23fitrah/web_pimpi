@@ -1,0 +1,164 @@
+/* SLIMBOX */
+
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.lbLoading {
+	background: #fff url(../images/loading.gif) no-repeat center;
+}
+
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(../images/prevlabel.gif) no-repeat 0 15%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover {
+	background: transparent url(../images/nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 22px;
+	background: transparent url(../images/closelabel.gif) no-repeat center;
+	margin: 5px 0;
+	outline: none;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}
+/*Tombol*/
+#button {
+width:170px;
+border: outset #aaa;
+border-radius: 15px;
+background: Green url(myimage.jpg);
+font-size:15pt;
+line-height:150%;
+font-weight:bold;
+color:white;
+text-decoration:none;
+}
+#button_daftar {
+width:170px;
+border: outset #aaa;
+border-radius: 15px;
+background: Green url(myimage.jpg);
+font-size:15pt;
+line-height:160%;
+font-weight:bold;
+color:white;
+text-decoration:none;
+}
+#button_read {
+width:120px;
+border: outset #aaa;
+border-radius: 15px;
+background: Green url(myimage.jpg);
+font-size:15pt;
+line-height:150%;
+font-weight:bold;
+color:white;
+text-decoration:none;
+}
+
+#button:hover {
+border: inset green;
+background: rgba(0,0,0, .7);
+color: yellow;
+text-shadow: 0px 0px 0px #4169E1;
+cursor:pointer;
+text-decoration:none;
+}
+#button_daftar:hover {
+border: inset green;
+background: rgba(0,0,0, .7);
+color: yellow;
+text-shadow: 0px 0px 0px #4169E1;
+cursor:pointer;
+text-decoration:none;
+}
+#button_read:hover {
+border: inset green;
+background: rgba(0,0,0, .7);
+color: yellow;
+text-shadow: 0px 0px 0px #4169E1;
+cursor:pointer;
+text-decoration:none;
+}
+
+#button:active {
+background-image:none;
+border: outset green ;
+-webkit-box-shadow: 4px 4px 5px green ;
+box-shadow: 10px 10px 5px green;
+}
+#button_daftar:active {
+background-image:none;
+border: outset green ;
+-webkit-box-shadow: 4px 4px 5px green ;
+box-shadow: 10px 10px 5px green;
+}
+#button_read:active {
+background-image:none;
+border: outset green ;
+-webkit-box-shadow: 4px 4px 5px green ;
+box-shadow: 10px 10px 5px green;
+}
+
+#a{text-align:center;border:1px solid #ddd; background:rgba(7,111,192, .7);padding: 5px;color:white;}
+#b{color:white;}
